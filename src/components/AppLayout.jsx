@@ -5,6 +5,8 @@ import { ReactLenis } from 'lenis/react'
 import { cancelFrame, frame } from 'framer-motion'
 import { useEffect, useRef } from 'react'
 import ScrollToTop from './ScrollToTop'
+import Menu from "../sections/Menu";
+
 
 const AppLayout = () => {
      const lenisRef = useRef(null)
@@ -23,6 +25,7 @@ const AppLayout = () => {
     <ReactLenis root options={{ autoRaf: false }} ref={lenisRef}>
         <ScrollToTop/>
         <Navbar/>
+        <Menu/>
         <Outlet/>
         <Footer/>
      </ReactLenis>
