@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Cinzel;
+    src: url(../public/fonts/Cinzel-Regular.otf);
+}
+@font-face {
+    font-family: NunitoSans;
+    src: url(../public/fonts/NunitoSans-Regular.ttf);
+}
+@import "tailwindcss";
+@theme{
+    --font-Cinzel:Cinzel,"sens-serif";
+    --font-NunitoSans:NunitoSans, "sens-serif";
+}
+body{
+    font-family:NunitoSans;
+}
+h1{
+    font-family:Cinzel;
+}
