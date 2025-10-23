@@ -24,7 +24,6 @@ const AppLayout = () => {
     <ReactLenis root options={{ autoRaf: false }} ref={lenisRef}>
         <ScrollToTop/>
         <Navbar/>
-       
         <Outlet/>
         <Footer/>
      </ReactLenis>

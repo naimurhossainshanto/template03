@@ -67,7 +67,7 @@ const Trending = () => {
   const displayedDrink = selectedDrink || drinkImages[currentDrinkIndex];
 
   return (
-    <section id="food" className="bg-red-900 flex flex-col items-center overflow-hidden relative">
+    <section id="menu" className="bg-red-900 flex flex-col items-center overflow-hidden relative">
 
       {/* --- TOP (Sushi + Preview same line) --- */}
       <div className="flex flex-row flex-wrap md:flex-nowrap w-full">
