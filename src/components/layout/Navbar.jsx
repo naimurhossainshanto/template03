@@ -25,20 +25,7 @@ const Navbar = () => {
 
   return (
     <div className='bg-red-50'>
-      {/* Top Navbar (Hidden on small screens) */}
-      <div className="hidden md:flex justify-between px-6 items-center bg-red-100 py-2">
-        <div className="phonenumber flex gap-2 items-center">
-          <img src="/images/iphone.png" alt="phone" className='h-6 w-6'/>
-          <span>01645455710</span>
-        </div>
-        <h1 className='font-bold text-center text-sm md:text-base lg:text-lg'>
-          One call for delicious moments.
-        </h1>
-        <div className="adress flex gap-2 items-center">
-          <img src="/images/location.png" alt="location" className='h-6 w-6'/>
-          <span>Rampur Bonani</span>
-        </div>
-      </div>
+      
 
       {/* Bottom Navbar (Hidden on small screens) */}
       <div className="flex justify-between items-center py-4 px-6">

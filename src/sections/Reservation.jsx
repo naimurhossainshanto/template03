@@ -23,13 +23,12 @@ const Reservation = () => {
   return (
     <div
       id="Reservations"
-      className="w-full bg-[#F7F5DD] py-8 md:py-12 lg:py-16 overflow-hidden"
+      className="w-full bg-[#F7F5DD] py-8 md:py-12 lg:py-16 overflow-x-hidden"
     >
-      <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-8">
-
+      <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-8 overflow-hidden px-6 md:px-12">
         {/* Left Side */}
         <div
-          className="w-full lg:w-[50%] flex flex-col items-start justify-center gap-4 md:px-12 px-6"
+          className="w-full lg:w-[50%] flex flex-col items-start justify-center gap-4"
           data-aos="fade-right"
         >
           <div className="flex flex-col items-start justify-center gap-2">
@@ -104,13 +103,13 @@ const Reservation = () => {
 
         {/* Right Side Image */}
         <div
-          className="w-full lg:w-[50%] flex items-center justify-center lg:justify-end"
+          className="w-full lg:w-[50%] flex items-center justify-center lg:justify-end overflow-hidden"
           data-aos="fade-up"
         >
           <img
             src={reservationImg}
             alt="Restaurant Reservation"
-            className="w-full max-w-[520px] object-contain"
+            className="w-full max-w-[520px] object-contain lg:translate-x-[-10px]"
           />
         </div>
       </div>

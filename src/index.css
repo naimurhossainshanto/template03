@@ -79,3 +79,9 @@ h1{
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* 👈 hides any horizontal overflow */
+}

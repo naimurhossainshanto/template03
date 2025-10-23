@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <div id="hero" className="bg-red-950 text-white overflow-hidden">
+    <div id="hero" className="bg-red-950 text-white overflow-x-hidden">
       <div className="flex flex-col justify-center items-center relative px-4 pt-10 md:pt-16 lg:pt-20">
         {/* Title */}
         <h1

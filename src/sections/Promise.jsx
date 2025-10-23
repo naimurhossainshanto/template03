@@ -55,7 +55,7 @@ const PromiseSection = () => {
 
   return (
     <section
-      className="relative w-full min-h-[40vh] md:min-h-[50vh] bg-[#7c2a2a] text-white py-6 md:py-10 px-4 md:px-8 lg:px-16 flex flex-col justify-center overflow-hidden"
+      className="relative w-full min-h-[40vh] md:min-h-[50vh] bg-[#7c2a2a] text-white py-6 md:py-10 px-4 md:px-8 lg:px-16 flex flex-col justify-center overflow-x-hidden"
       data-aos="fade-up"
       data-aos-delay="100"
     >
