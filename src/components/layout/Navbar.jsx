@@ -9,7 +9,7 @@ const Navbar = () => {
     { name: "Home", id: "hero", icon: "/images/home.png" },
     { name: "Menu", id: "menu", icon: "/images/menu.png" },
     { name: "Promise", id: "promise", icon: "/images/brand.png" },
-    { name: "Reservations", id: "reservations", icon: "/images/booking.png" },
+    { name: "Reservations", id: "Reservations", icon: "/images/booking.png" },
     { name: "FAQ", id: "faq", icon: "/images/help.png" },
   ]
 
